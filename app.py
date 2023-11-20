@@ -17,6 +17,14 @@ def index():
 	return  "Welcome on my first containerized app stay tuned with developments"
 
 
+@app.route('/hello', methods=['GET', 'POST'])
+def index2():
+	return  "Welcome in NExai Developer world"
+
+
+
+
+
 
 
 # Start with flask web app with debug as
