@@ -22,6 +22,11 @@ def index2():
 	return  "Welcome in NExai Developer world"
 
 
+@app.route('/hello3', methods=['GET', 'POST'])
+def index3():
+	return  "We provide best services Always  with your requirements and services"
+
+
 
 
 
